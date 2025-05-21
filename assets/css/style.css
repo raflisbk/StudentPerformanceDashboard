@@ -1,0 +1,162 @@
+/* Modern Minimalist Dashboard Styling */
+
+/* Custom containers */
+.card {
+    background-color: #1E1B2E;
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid #3B3651;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Feature cards */
+.feature-card {
+    background-color: #1E1B2E;
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid #3B3651;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card h3 {
+    color: white;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+.feature-card p {
+    color: #B4B4B4;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.feature-card .bg-icon {
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    font-size: 8rem;
+    opacity: 0.1;
+    z-index: 1;
+}
+
+/* Risk level indicators */
+.risk-card {
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.risk-card.high {
+    background-color: rgba(255, 94, 143, 0.2);
+    border: 1px solid #FF5E8F;
+}
+
+.risk-card.medium {
+    background-color: rgba(255, 209, 102, 0.2);
+    border: 1px solid #FFD166;
+}
+
+.risk-card.low {
+    background-color: rgba(0, 231, 162, 0.2);
+    border: 1px solid #00E7A2;
+}
+
+.risk-card h2 {
+    margin-bottom: 0.5rem;
+}
+
+.risk-card p {
+    margin-bottom: 0;
+}
+
+/* Form elements */
+.form-section {
+    background-color: #1E1B2E;
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid #3B3651;
+    margin-bottom: 1.5rem;
+}
+
+.form-section h3 {
+    color: #7B61FF;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #3B3651;
+}
+
+/* Expanders */
+.streamlit-expanderHeader {
+    background-color: #1E1B2E !important;
+    color: white !important;
+    border-radius: 8px !important;
+    border: 1px solid #3B3651 !important;
+}
+
+.streamlit-expanderContent {
+    background-color: #1E1B2E !important;
+    color: #B4B4B4 !important;
+    border: 1px solid #3B3651 !important;
+    border-top: none !important;
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+}
+
+/* Tooltips & hints */
+.hint {
+    font-size: 0.9rem;
+    color: #B4B4B4;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    border-left: 3px solid #7B61FF;
+}
+
+/* Animations */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.pulse {
+    animation: pulse 2s infinite ease-in-out;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    padding: 0.75rem;
+    border-bottom: 1px solid #3B3651;
+}
+
+table th {
+    background-color: #29263E;
+    color: white;
+    font-weight: 500;
+}
+
+table tr:hover {
+    background-color: #29263E;
+}
