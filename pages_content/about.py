@@ -23,14 +23,11 @@ def show(COLORS):
         <h3>Data Source</h3>
         <p>
             The dataset used in this project comes from a higher education institution and contains information about students 
-            enrolled in different undergraduate degrees, such as agronomy, design, education, nursing, journalism, management, 
-            social service, and technologies. It includes demographic information, academic path, socio-economic factors, and 
-            academic performance indicators.
+            enrolled in different undergraduate degrees.
         </p>
         <div class="hint">
-            Dataset source: Realinho, Valentim, Vieira Martins, Mónica, Machado, Jorge, and Baptista, Luís. (2021). 
-            Predict students' dropout and academic success. UCI Machine Learning Repository. 
-            <a href="https://doi.org/10.24432/C5MC89" style="color: {COLORS["primary"]};">https://doi.org/10.24432/C5MC89</a>
+            Dataset source: Student Performance Data Dicoding. 
+            <a href="https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/data.csv" style="color: {COLORS["primary"]};">https://doi.org/10.24432/C5MC89</a>
         </div>
     </div>
     """, unsafe_allow_html=True)
