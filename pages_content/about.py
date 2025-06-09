@@ -27,7 +27,7 @@ def show(COLORS):
         </p>
         <div class="hint">
             Dataset source: Student Performance Data Dicoding. 
-            <a href="https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/data.csv" style="color: {COLORS["primary"]};">https://doi.org/10.24432/C5MC89</a>
+            <a href="https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/data.csv" style="color: {COLORS["primary"]};">Dicodinga Dataset</a>
         </div>
     </div>
     """, unsafe_allow_html=True)
